@@ -1,0 +1,51 @@
+# Git aliases
+alias gs="clear && git status"
+alias gd="clear && git diff"
+alias gc="clear && git commit"
+alias ga="git add"
+alias gaa="git add ."
+
+# Laravel aliases
+alias art="php artisan"
+alias migrate="php artisan migrate"
+alias tinker="php artisan tinker"
+
+# Generator aliases
+alias g:m="php artisan generate:model"
+alias g:c="php artisan generate:controller"
+alias g:v="php artisan generate:view"
+alias g:s="php artisan generate:seed"
+alias g:mig="php artisan generate:migration"
+alias g:r="php artisan generate:resource"
+
+# Vagrant aliases
+
+
+# SSH
+alias vm="ssh vagrant@localhost -p 2222"
+alias londo="ssh aordonez@londo.stetson.edu"
+alias delenn="ssh aordonez@delenn"
+
+# Navigation aliases
+alias home="cd ~"
+alias ..="cd .."
+alias ...="cd ../.."
+
+# ls after cd if successful.
+cdls() {
+  builtin cd "$*"
+  RESULT=$?
+  if [ "$RESULT" -eq 0 ]; then
+    ls
+  fi
+}
+
+# cd after mkdir if successful.
+mkcd() {
+  mkdir -p "$1"
+  RESULT=$?
+  if [ "$RESULT" -eq 0 ]; then
+    cd "$111"
+  fi
+}
+

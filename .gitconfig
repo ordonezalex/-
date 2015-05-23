@@ -1,0 +1,7 @@
+[user]
+	name = Alex Ordonez
+	email = ordonez.alex.pierce@gmail.com
+[push]
+	default = simple
+[core]
+	editor = vim
