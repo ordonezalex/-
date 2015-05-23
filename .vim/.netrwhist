@@ -1,8 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
-let g:netrw_dirhist_1='/home/alex/repos/php/hackathon/app/assets/sass'
-let g:netrw_dirhist_2='/home/alex/repos/java/cinf401-group-project-4/data'
-let g:netrw_dirhist_3='/home/alex/repos/java/cinf401-group-project-4/data/data'
-let g:netrw_dirhist_4='/home/alex/repos/java/cinf401-group-project-4/.idea'
-let g:netrw_dirhist_5='/home/alex/repos/php/work'
-let g:netrw_dirhist_6='/home/alex/repos/php/copy_of_austin/htdocs'
