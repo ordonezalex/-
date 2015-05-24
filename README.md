@@ -13,31 +13,31 @@
 
 ## Install `vcsh`
 
-### <a id="linux"></a>Linux
+### Linux
 
 ```
 sudo apt-get install vcsh
 ```
 
-### <a id="osx"></a>OS X
+### OS X
 
 ```
 brew install vcsh
 ```
 
-### <a id="windows"></a> Windows
+### Windows
 
 No.
 
 ## Clone
 
-### <a id="ssh"></a>SSH
+### SSH
 
 ```
 vcsh clone git@github.com:ordonezalex/-.git
 ```
 
-### <a id="https"></a>HTTPS
+### HTTPS
 
 ```
 vcsh clone https://github.com/ordonezalex/-.git
